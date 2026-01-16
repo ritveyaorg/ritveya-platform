@@ -1,0 +1,12 @@
+<div class="transparency-page">
+  <div *ngIf="loading">Loading...</div>
+  <div *ngIf="error" class="error">{{ error }}</div>
+  <div *ngIf="!loading && !error">
+    <h1>{{ content['transparency.title'] }}</h1>
+    <div class="content">
+      <p>{{ content['transparency.p1'] }}</p>
+      <p *ngIf="content['transparency.p2']">{{ content['transparency.p2'] }}</p>
+    </div>
+  </div>
+</div>
+

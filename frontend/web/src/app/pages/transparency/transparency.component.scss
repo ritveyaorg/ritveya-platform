@@ -1,0 +1,33 @@
+.transparency-page {
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 24px;
+    color: #333;
+  }
+
+  .content {
+    p {
+      font-size: 1.1rem;
+      line-height: 1.8;
+      color: #666;
+      margin-bottom: 20px;
+    }
+  }
+
+  .loading, .error {
+    text-align: center;
+    padding: 48px;
+    color: #666;
+  }
+
+  .error {
+    color: #d32f2f;
+  }
+}
+
+@media (max-width: 768px) {
+  .transparency-page h1 {
+    font-size: 2rem;
+  }
+}
+
