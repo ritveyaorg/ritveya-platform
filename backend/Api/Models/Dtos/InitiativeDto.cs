@@ -1,0 +1,12 @@
+namespace Api.Models.Dtos;
+
+public class InitiativeDto
+{
+    public Guid Id { get; set; }
+    public string Title { get; set; } = string.Empty;
+    public string ShortDescription { get; set; } = string.Empty;
+    public string Status { get; set; } = string.Empty;
+    public int DisplayOrder { get; set; }
+    public bool IsActive { get; set; }
+}
+
